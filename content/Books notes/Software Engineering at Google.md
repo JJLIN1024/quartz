@@ -37,3 +37,38 @@ draft: false
 - 領導和工程師的差別在於，領導負責決定方向，決定戰略，細節實現就交給手下的工程師
 - 不要害怕被取代，而是要積極尋找你的接班人，當你找到之後，你就可以往下一份領導職位前進了，可以是別的組，也可以再往上晉升
 - 成功會為團隊帶來更多的工作，作為領導，最重要的是要保護好自己的精力和注意力，因為你的工作不再是像工程師那樣有條有序地解 issue，而是到處救火，你的通訊軟體會被各種訊息塞滿
+## Code Reivew
+- Why Code Reivew
+	- more robust
+	- better code quality -> easier to maintain
+	- 用一套既定的規則給予工程師肯定，避免工程師過於驕傲，或產生冒牌症候群，
+- LGTM
+	- correctness
+	- readibility
+	- 是否增加了未來的技術債？
+	- 是否難以維護？
+- Ownership
+	- Project Owner -> distributed, no need for a centralized code base control
+## Documentation
+- 包括文件、註釋
+- 文件
+	- 文件的形式
+		- XXWiki is not a good idea
+			- 雖然文件是自由的，任何人都可以編輯，但是這也代表，文件沒有明確的 Owner，因此也沒有人去維護，文件品質很差
+		- 將 Documentation 當作一個 code base，用 Git 和 project owner 去保證其品質
+	- What makes a *good* documentation
+		- TL;DR
+		- Know your audience
+		- keep it short by first writing a long version and then trim it down, 刪掉冗詞贅字以及重複的內容，要記住：less is more，理查．費曼 Richard Feynman 說過：如果你無法用簡單的語言解釋一件事，那就代表你並未真正理解它
+		- WHO, WHAT, WHEN, WHERE, and WHY
+		- 
+	- Single Responsibility
+		- one file for one single responsiblity
+	- Tutorial
+		- 新手教學，就是 example，而寫 tutorial 最好的時機點就是你剛加入團隊的時候，透過 try and error，然後記錄下最後讓事情 work 的方法和過程
+- 註釋
+	- 應該包含兩部分
+		- 開頭說明：讓搜尋者可以輕鬆找到要找的文件（比如說用 grep），比如說在一個 header file 最一開始聲明這個 header file 提供什麼功能
+		- 每個 function、class 的用法：讓使用者（也就是搜尋者找到了對的 header file 之後）可以輕鬆了解該如何使用
+## Test
+
