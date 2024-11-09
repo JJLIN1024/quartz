@@ -71,4 +71,50 @@ draft: false
 		- 開頭說明：讓搜尋者可以輕鬆找到要找的文件（比如說用 grep），比如說在一個 header file 最一開始聲明這個 header file 提供什麼功能
 		- 每個 function、class 的用法：讓使用者（也就是搜尋者找到了對的 header file 之後）可以輕鬆了解該如何使用
 ## Test
+- [Google Testing Blog](https://testing.googleblog.com/)
+- Why do we need test?
+	- Increased confidence in changes
+	- When documentation is out of date, the test is not
+	- Fast, high-quality releases
+- 測試規模
+	- Small Test
+		- single process
+		- no I/O to Disk, no blocking call, no sleep, cannot make network calls to any system other than localhost
+	- Medium Test
+		- single machine
+		- cannot make network calls to any system other than localhost
+	- Large Test
+		- Multiple machines
+- 測試的組成比例應該類似：80% Unit Test, 15% Integration Test, 5% End to End Test
+	- Unit Test 比較要重，才可以穩定且快速地抓出 bug 在哪。相反的，如果 E2E Test 比較較大，就會有較多的 bug 隱藏在執行期間裡沒有被抓出來
+- Flaky test are expensive and hard to deal with
+	- [Flaky Tests at Google and How We Mitigate Them](https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html)
+- [googletest](https://github.com/google/googletest)
+- Unit Test
+	- Test State, Not Interactions. Test Behaviors, Not Methods
+		- how we interact with the system may change rapidly，如果測試著重在 interaction 的方式是否正確，就會導致在做 refactor 時花費無謂的時間去修改大量以前的測試，因為如果不修改，你做的 refactor 必然導致大量的測試 fail
+			- API 版本的更迭
+			- function call 參數更改，return 值更改
+		- 測試要著重在系統在測試之後是否有達到我們預期的狀態
+	- DRY(Don't Repeat Yourself) & DAMP(Descriptive And Meaningful Phrases)
+		- 在寫測試的時候，可以適時的放寬 DRY 這條規則，因為過度的 DRY 會讓測試變得不清晰、不易懂，讓讀測試結果的人更難以抓到到底錯誤在哪裡
+		- A little bit of duplication is OK in tests so long as that duplication makes the test simpler and clearer
+	- Test Doubles
+		- Why Test Doubles? 因為可能會依賴第三方套件（物件），其回傳結果耗時、不 deterministic，或是第三方套件（物件）非常龐大，實現很複雜，但測試其實只用到了其中某些核心功能
+		- Seam：A seam is a way to make code testable by allowing for the use of test doubles—it makes it possible to use different dependencies for the system under test rather than the dependencies used in a production environment.
+	- Fake
+		- lightweight implementation of an API that behaves similar to the real implementation but isn’t suitable for production; for example, an in-memory database
+	- Stub
+		- 一個可控制的假物件，用以取代原本相依的第三方元件，可以使單元測試不用去擔心第三方的邏輯會導致測試失敗
+	- Mock
+		- 一個假物件，用以替第三方元件判斷與其互動的方式是正確還是錯誤的。也就是說，可以用mock來驗證本身的邏輯與第三方元件的互動方式是否正確
+		- 通常搭配 Dependency injection 以實現（而非在邏輯中直接 initialize）
+	- 可以透過「偽造的物件能否導致測試失敗」這個條件來判斷到底是stub還是mock
+	- DoNotMock
+		- 過度使用 Mock 導致失真，進而導致 real production 時會遇到的 bug 沒有在測試時被檢測出來
+	- When to Mock and When Not to Mock
+		- it's a tradeoff between productivity and fidelity
+- 大型測試(end-to-end)
+	- The rate of distinct scenarios to test in an end-to-end way can grow exponentially or combinatorially depending on the structure of the system under test, and that growth does not scale.
+## Deprecation
 

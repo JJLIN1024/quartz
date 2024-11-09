@@ -16,6 +16,7 @@ draft: false
 - [[時間簡史1]]
 - [[The Emperor of All Maladies - A Biography of Cancer]]
 - [[Software Engineering at Google]]
+- [[時間的秩序]]
 - Nexus: A Brief History of Information Networks from the Stone Age to AI
 - [[李光耀觀天下]]
 - [[The Singularity Is Nearer]]
@@ -43,7 +44,6 @@ draft: false
 - [[致富的特權-二十年來我們為央行政策付出的代價]]
 - [[借殼上市-蔣介石與中華民國臺灣的形塑]]
 - [[原則-生活和工作]]
-- [[時間的秩序]]
 - [[超速學習]]
 - [[小王子]]
 
