@@ -94,3 +94,69 @@ A control group (cgroup) is a Linux kernel feature that limits, accounts for, an
 
 - `css_set` within the `task_struct`
 - [cgroup原始碼分析1—— css_set和cgroup的關係](https://linux.laoqinren.net/kernel/cgroup-source-css_set-and-cgroup/)
+
+## AUFS
+
+AUFS (Advanced Multi-Layered Unification Filesystem) 和 Docker image 的關係主要在於分層儲存和寫時複製(Copy-on-Write)機制。
+
+1. Docker Image 分層結構：
+
+```markdown
+Layer 4 (Container layer - 可寫)
+Layer 3 (Read-only - 例如 apt install 某個套件)
+Layer 2 (Read-only - 例如加入應用程式程式碼)
+Layer 1 (Read-only - 例如基礎 Ubuntu 映像)
+```
+
+2. AUFS 如何處理這些層：
+
+所有層都被掛載到同一個掛載點
+上層覆蓋下層的同名檔案
+讀取檔案時，AUFS 從上往下尋找第一個匹配的檔案
+
+當檔案發生變動時的處理流程：
+
+```markdown
+當程式要修改 /etc/config.conf：
+
+A. 如果檔案不存在：
+   - 直接在最上層(Container layer)建立新檔案
+
+B. 如果檔案存在於下層：
+   1. AUFS 先把檔案從下層複製到最上層(Copy-up)
+   2. 在最上層進行修改
+   3. 下層的原始檔案保持不變
+```
+
+具體例子：
+
+```markdown
+假設有個檔案 /etc/nginx/nginx.conf：
+
+初始狀態：
+Layer 4 (Container): [空]
+Layer 3: [空]
+Layer 2: nginx.conf (原始設定)
+Layer 1: [空]
+
+修改 nginx.conf 後：
+Layer 4 (Container): nginx.conf (修改後的版本)
+Layer 3: [空]
+Layer 2: nginx.conf (原始設定，未變動)
+Layer 1: [空]
+```
+
+刪除檔案的處理：
+
+```markdown
+當刪除來自唯讀層的檔案時：
+1. AUFS 在最上層建立一個 whiteout 檔案
+2. 這個 whiteout 檔案會遮蔽下層的同名檔案
+3. 對使用者來說，檔案看起來像是被刪除了
+```
+
+這種設計的優點：
+
+節省空間：相同的基礎層可以被多個容器共用
+快速部署：不需要完整複製整個檔案系統
+隔離性：每個容器的修改都在自己的層中，不影響其他容器

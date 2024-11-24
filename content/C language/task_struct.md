@@ -12,6 +12,7 @@ tags:
   - file_system
 draft: false
 ---
+- [task_struct(v6.11.7)](https://elixir.bootlin.com/linux/v6.11.7/source/include/linux/sched.h#L758)
 A Process(Thread) in [Linux Kernel](https://elixir.bootlin.com/linux/latest/source/include/linux/sched.h#L748):
 
 ```cpp
@@ -451,3 +452,8 @@ struct nsproxy {
 ```
 
 see [User Namespace 詳解](https://tinylab.org/user-namespace/)
+
+[Namespaces in operation, part 1: namespaces overview](https://lwn.net/Articles/531114/)
+
+[[css_set]]
+[[nsproxy]]
