@@ -37,17 +37,13 @@ draft: false
 - [[Books]]
 ## Tech I Learned
 
-### Algorithm
-- [[algorithm]]
-- [[leetcode]]
-- [[CSES Problem Set]]
-- [[Codeforces]]
 ### Programming Language
 - [[C]]
 - [[C++]]
 - [[Python]]
 ### OS
 - [[Operating System]]
+- [[預處理、編譯、彙編、連接]]
 - [[Docker]]
 ### Tools
 - [[Git]]
@@ -55,7 +51,11 @@ draft: false
 - [[Docker]]
 - [[Design Pattern]]
 - [[Design Data-Intensive Applications]]
-
+### Algorithm
+- [[algorithm]]
+- [[leetcode]]
+- [[CSES Problem Set]]
+- [[Codeforces]]
 ## Contact Me
 - email: linchiachieh1024@gmail.com
 - [linkedin](https://www.linkedin.com/in/chia-chieh-lin-b15788167/)

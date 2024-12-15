@@ -6,7 +6,6 @@
 </aside>
 
 https://youtu.be/W2Z7fbCLSTw?si=JoPebsQY-YRH9Uff
-
 ## SQL(Relational Model)
 
 <aside>
