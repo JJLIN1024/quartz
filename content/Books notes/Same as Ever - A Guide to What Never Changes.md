@@ -9,81 +9,81 @@ tags:
   - 心理學
 draft: false
 ---
-- Risk Is What You Don’t See
-	- As financial advisor Carl Richards says, "Risk is what’s left over after you think you’ve thought of everything"
-- The first rule of happiness is low expectations
-	- It’s been like this forever. Montesquieu wrote 275 years ago, "If you only wished to be happy, this could be easily accomplished; but we wish to be happier than other people, and this is always difficult, for we believe others to be happier than they are."
-	- These pieces of advice are easier said than done. I think it’s often hard to distinguish high expectations from motivation. And low expectations feels like giving up and minimizing your potential.
-- Something that’s built into the human condition is that people who think about the world in unique ways you like almost certainly also think about the world in unique ways you won’t like.
-	- It’s so easy to overlook, and it causes us to have poor judgment about who we should look up to and what we should expect from very successful people.
-	- Either you want someone else’s life or you don’t. Either is equally powerful. Just know which is which when finding role models.
-- The world breaks about once every ten years, on average—always has, always will. Sometimes it feels like terrible luck, or that bad news has new momentum. More often it’s just raw math at work. A zillion different things can go wrong, so at least one of them is likely to be causing havoc at any given moment. And given how connected we are, you’re going to hear about it.
-- People don’t want accuracy. They want certainty.
-	- The brain of man is programmed with a tendency to quickly remove doubt by reaching some decision.
-	- It is easy to see how evolution would make animals, over the eons, drift toward such quick elimination of doubt. After all, the one thing that is surely counterproductive for a prey animal that is threatened by a predator is to take a long time in deciding what to do.
-- Stories are always more powerful than statistics.
-	- If you look, I think you’ll find that wherever information is exchanged—wherever there are products, companies, careers, politics, knowledge, education, and culture—the best story wins.
-	- Perhaps no one has mastered the art of storytelling better than comedians. They are the best thought leaders because they understand how the world works, but they want to make you laugh rather than make themselves feel smart. They take insights from psychology, sociology, politics, and every other dry field and squeeze out amazing stories. That’s why they can sell out arenas while an academic researcher who discovers a great insight about social behavior can go unnoticed.
-	- When a topic is complex, stories are like leverage.
-	- Jeff Bezos once said, “The thing I have noticed is when the anecdotes and the data disagree, the anecdotes are usually right. There’s something wrong with the way you are measuring it.
-- Attempting to distill emotional and hormonal humans into a math equation is the cause of so much frustration and surprise in the world.
-	- Physical running limits on a test track may be different than physical limits during an Olympic final, which may be different than physical limits when being chased by an ax murderer.
-	- This helps explain crazy stories about people lifting up cars when someone is pinned underneath, their life in jeopardy. Capabilities are a function of in-the-moment circumstances.
-	- Keynes, the British economist, had discovered in his work that economies are not machines. They have souls, emotions, and feelings. Keynes called them “animal spirits.”s
-	- Every investment price, every market valuation, is just a number from today multiplied by a story about tomorrow.
-	- The ones who thrive long term are those who understand the real world is a never-ending chain of absurdity, confusion, messy relationships, and imperfect people.
-- calm plants the seeds of crazy
-	- After slapping Chris Rock on stage at the Oscars, Will Smith turned to Denzel Washington for advice. Washington said, “At your highest moment, be careful. That’s when the devil comes for you.”
-- Stress focuses your attention in ways good times can’t. It kills procrastination and indecision, taking what you need to get done and shoving it so close to your face that you have no choice but to pursue it, right now and to the best of your ability.
-- what makes life mean something is purpose. A goal. The battle, the struggle—even if you don’t win it.
-	- Be careful what you wish for.
-	- A carefree and stress-free life sounds wonderful only until you recognize the motivation and progress it prevents. No one cheers for hardship—nor should they—but we should recognize that it’s the most potent fuel of problem-solving, serving as both the root of what we enjoy today and the seed of opportunity for what we’ll enjoy tomorrow.
-- On a similar note, author Yuval Noah Harari writes: “To enjoy peace, we need almost everyone to make good choices. By contrast, a poor choice by just one side can lead to war.”
-	- The idea of “complex to make, simple to break” is everywhere. Construction requires skilled engineers; demolition requires only a sledgehammer. Even when something doesn’t break easily, the thing that could break it is usually simpler than whatever made it.
-- 古巴飛彈危機期間，蘇聯在古巴的飛彈威力比沙皇炸彈小四千倍。但根據國防部長羅伯特·麥克納馬拉的說法，如果蘇聯發射了其中一枚，美國就有「99%的可能性」會用全部核武力量進行報復。
-	- Big risks are easy to overlook because they’re just a chain reaction of small events, each of which is easy to shrug off. So people always underestimate the odds of big risks.
-- That’s the balance—planning like a pessimist and dreaming like an optimist.
-	- If you understand the math behind compounding you realize the most important question is not “How can I earn the highest returns?” It’s “What are the best returns I can sustain for the longest period of time?”
-	- The prisoners who constantly said, “We’re going to be home by Christmas” were the ones whose spirits were shattered when another Christmas came and went. “They died of a broken heart,” Stockdale said.
-	- There is a balance, he said, between needing unwavering faith that things will get better while accepting the reality of brutal facts, whatever they may be. Things will eventually get better. But we’re not going home by Christmas.
-	- you can only be an optimist in the long run if you’re pessimistic enough to survive the short run.
-	- In the middle is the sweet spot, what I call the rational optimists: those who acknowledge that history is a constant chain of problems and disappointments and setbacks, but who remain optimistic because they know setbacks don’t prevent eventual progress. They sound like hypocrites and flip-floppers, but often they’re just looking further ahead than other people.
-	- The trick in any field—from finance to careers to relationships—is being able to survive the short-run problems so you can stick around long enough to enjoy the long-term growth
-	- Save like a pessimist and invest like an optimist.
-	- Plan like a pessimist and dream like an optimist.s
-- Many people strive for efficient lives, where no hour is wasted. But an overlooked skill that doesn’t get enough attention is the idea that wasting time can be a great thing.
-	- Psychologist Amos Tversky once said that “the secret to doing good research is always to be a little underemployed. You waste years by not being able to waste hours.
-	- Nassim Taleb says, “My only measure of success is how much time you have to kill.” More than a measure of success, I think it’s a key ingredient. The most efficient calendar in the world—one where every minute is packed with productivity—comes at the expense of curious wandering and uninterrupted thinking, which eventually become the biggest contributors to success.
-	- Just like evolution, the key is realizing that the more perfect you try to become, the more vulnerable you generally are.
-- Charlie Munger once noted: “The safest way to try to get what you want is to try to deserve what you want. It’s such a simple idea. It’s the golden rule. You want to deliver to the world what you would buy if you were on the other end.”
-- If you recognize that inefficiency—“bullshit,” as Pressfield puts it—is ubiquitous, then the question is not “How can I avoid all of it?” but “What is the optimal amount to put up with so I can still function in a messy and imperfect world?”
-- What’s easy to miss is that there are bad things that become bigger problems when you try to eliminate them. I think the most successful people recognize when a certain amount of acceptance beats purity. Theft is a good example. A grocery store could eliminate theft by strip-searching every customer leaving the store. But then no one would shop there. So the optimal level of theft is never zero. You accept a certain level as an inevitable cost of progress.
-- A good rule of thumb for a lot of things is to identify the price and be willing to pay it. The price, for so many things, is putting up with an optimal amount of hassle
-- The only thing harder than gaining a competitive edge is not losing an advantage when you have one
-- The grass is always greener on the side that’s fertilized with bullshit.
-- Most things are harder than they look and not as fun as they seem.
-- Everyone’s dealing with problems they don’t advertise, at least until you get to know them well. Keep that in mind and you become more forgiving—of yourself and others.
-- Nothing is more persuasive than what you’ve experienced firsthand.
-- Comedian Trevor Noah once discussed apartheid in his native South Africa, noting: “If you find the right balance between desperation and fear, you can make people do anything.”
-- Jim Carrey once said, “I think everybody should get rich and famous and do everything they ever dreamed of so they can see that it’s not the answer.”
-- Part of this is the same reason that predicting how you’ll respond to risk is difficult: It’s hard to imagine the full context until you experience it firsthand.
-- Long term is harder than most people imagine, which is why it’s more lucrative than many people assume.
-- The long run is just a collection of short runs you have to put up with
-- Long-term thinking can be a deceptive safety blanket that people assume lets them bypass the painful and unpredictable short run
-- Your belief in the long run isn’t enough. Your partners, coworkers, spouses, and friends have to sign up for the ride
-- Patience is often stubbornness in disguise.
-- The world changes, which makes changing your mind not just helpful, but crucial
-- But changing your mind is hard because fooling yourself into believing a falsehood is so much easier than admitting a mistake.
-- Permanent information is harder to notice because it’s buried in books rather than blasted in headlines. But its benefit is huge. It’s not just that permanent information never expires, letting you accumulate it. It also compounds over time, leveraging off what you’ve already learned. Expiring information tells you what happened; permanent information tells you why something happened and is likely to happen again
-- Simplicity is the hallmark of truth—we should know better, but complexity continues to have a morbid attraction. When you give an academic audience a lecture that is crystal clear from alpha to omega, your audience feels cheated. . . . The sore truth is that complexity sells better.
-- Complexity gives a comforting impression of control, while simplicity is hard to distinguish from cluelessness.
-- Wounds Heal, Scars Last
-- What have you experienced that I haven’t that makes you believe what you do? And would I think about the world like you do if I experienced what you have?
-- A massive flood in 1924 swept through Leningrad, where Pavlov kept his lab and kennel. Flood water came right up to the dogs’ cages. Several were killed. The surviving dogs were forced to swim a quarter mile to safety. Pavlov later called it the most traumatic thing the dogs had ever experienced, by far.
-- Something fascinating then happened: The dogs seemingly forgot their learned behavior of drooling when the bell rang.
-- Different conditions productive of extreme excitation often lead to profound and prolonged loss of balance in nervous and psychic activity . . . neuroses and psychoses may develop as a result of extreme danger to oneself or to near friends, or even the spectacle of some frightful event not affecting one directly
-- wo things tend to happen after you get hit with something big and unexpected:
--  You assume what just happened will keep happening, but with greater force and consequence.
-- You forecast with great conviction, despite the original event being improbable and something few, if anyone, predicted.
+
+- **風險是你看不見的**
+    - “風險是你以為已經想到一切之後，剩下的部分。” — 卡爾·理查茲
+    - 大風險常常被忽視，因為它們往往是由一連串的小事件所引發，每個事件看似都不重要。
+- **幸福與期望**
+    - 幸福的第一條法則：低期望。
+    - 蒙田斯基（275年前）曾說：“如果你只希望快樂，這可以輕鬆實現；但我們希望比別人更快樂，而這總是很難，因為我們總認為別人比自己更幸福。”
+    - 高期望既能激勵人，也可能帶來失望。
+- **獨特的視角**
+    - 那些你欣賞的，具有獨特思維方式的人，往往也會在你不喜歡的方面持獨特觀點。
+    - 你是想要別人的生活，還是不想？搞清楚這一點，選擇合適的榜樣。
+- **世界每十年會崩潰一次**
+    - 平均而言，世界每十年就會發生一次重大崩潰。問題的出現是因為可以出錯的事物數量太多。
+- **確信感 vs 準確性**
+    - 人們不想要準確性，他們想要確信感。大腦傾向於迅速消除疑慮並做出決策，尤其在高壓環境下。
+- **故事比數據更有力量**
+    - 在信息交流的過程中，最好的故事往往能佔據主導地位。
+    - 喜劇演員是最好的思想領袖，因為他們擅長將複雜話題轉化為有趣的故事，能讓人笑的同時傳遞深刻的見解。
+    - 傑夫·貝佐斯說：“當軼事和數據不一致時，通常是軼事是對的。”
+- **數學無法解釋人類行為**
+    - 嘗試將人類的情感和行為簡化為數學方程式，往往是痛苦和困惑的根源。
+    - 人類的能力在不同情境下可能會發生巨大變化（如極端壓力下的應激反應）。
+    - “動物精神” — 凱恩斯認為，經濟並不是一台機器，而是由情感和感受驅動的。
+- **冷靜可能導致瘋狂**
+    - “在你最輝煌的時刻，要小心。那時魔鬼會來找你。” — 丹澤爾·華盛頓對威爾·史密斯說。
+    - 壓力能將注意力集中，並推動你去行動，而平靜的時光卻無法做到這一點。
+- **目的與奮鬥的重要性**
+    - 賦予生活意義的是目的：一個目標，一場戰鬥，或是奮鬥。
+    - 無憂無慮的生活聽起來很美好，但它可能剝奪了你前進的動力和進步的機會。
+- **一個錯誤的決定可能帶來巨大的後果**
+    - “要享受和平，我們需要幾乎每個人都做出正確的選擇。” — 尤瓦爾·赫拉利
+    - 簡單的行為往往能打破複雜的系統。
+- **樂觀與悲觀**
+    - “像悲觀者一樣計劃，像樂觀者一樣夢想。”
+    - 長期的成功來自於度過短期的困境。
+    - 理性的樂觀主義者理解挫折是進步的一部分。
+- **效率與浪費時間**
+    - 浪費時間有時是成功的關鍵。
+    - 心理學家阿莫斯·特維爾斯基曾說：“做出好研究的秘訣是總是有些輕微的閒暇。”
+    - 納西姆·塔勒布說：“我的成功標準就是你有多少時間可以消磨。”
+- **配得上你所渴望的**
+    - “想要得到你想要的，最安全的方法就是努力配得上它。” — 查理·芒格
+    - 專注於創造價值，而非單純追求得失。
+- **進步的代價**
+    - 有時，接受一定程度的低效或麻煩是最優的方式。
+    - “識別出代價，並願意為之付出。”
+- **保持競爭優勢**
+    - 獲得競爭優勢最難，保持競爭優勢更難。
+- **認知與現實**
+    - “草地總是看起來更綠，尤其是施肥後。”
+    - 大多數事情比看起來更難，且不如它們看上去那麼有趣。
+- **每個人都有隱藏的問題**
+    - 每個人都有不為人知的困境，直到你真正了解他們為止。這會帶來更多的寬容與理解。
+- **親身經驗的力量**
+    - 親身經歷是最具說服力的知識來源。
+    - 特雷弗·諾亞說：“找到恐懼與絕望的平衡，你可以讓人做任何事。”
+- **財富與名聲的現實**
+    - 吉姆·凱瑞曾說：“我認為每個人都應該富有並成名，做他們曾經夢想的一切，直到他們明白這並不是答案。”
+- **風險與體驗**
+    - 很難預測自己對風險的反應，直到親自經歷。
+    - 長期思維可能會給人一種假象，認為它能幫助人規避痛苦和不確定的短期挑戰。
+- **改變思維**
+    - 改變思維很困難，因為承認錯誤比保持錯誤的信念要難。
+    - 靈活性在變化的世界中至關重要。
+- **永久性信息**
+    - 永久性信息（不像過時數據）可以隨時間積累並產生複利效果，提供持續的優勢。
+- **簡潔 vs 複雜**
+    - 簡潔往往是事實的體現，而複雜則更容易讓人相信。
+    - 複雜的觀點可能看起來更有說服力，而簡潔的表達可能被誤認為是無知。
+- **傷口會癒合，疤痕會留存**
+    - 人們的經歷塑造了他們的信念。了解一個人的過去可以幫助解釋他們的世界觀。
+- **心理創傷與長期影響**
+    - 極端創傷性事件可能會對行為產生深遠且持久的影響，例如1924年洪水對巴甫洛夫實驗室狗群的影響。
+- **高估未來風險**
+    - 經歷過突如其來的事件後，人們往往認為這種情況會繼續發生，且會變得更加嚴重。
+    - 這種基於偶然事件的過度預測，會導致對風險的過度自信。
 ## Source
 - [Same as Ever: A Guide to What Never Changes](https://www.amazon.se/-/en/Morgan-Housel/dp/0593332709)

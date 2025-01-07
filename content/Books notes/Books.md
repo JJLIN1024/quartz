@@ -8,6 +8,7 @@ tags:
 draft: false
 ---
 
+- [[Die-With-Zero]]
 - [[連結 - 從石器時代到AI紀元]]
 - [[孫子兵法]]
 - [[薛西弗斯的神話]]
@@ -19,7 +20,6 @@ draft: false
 - [[The Emperor of All Maladies - A Biography of Cancer]]
 - [[Software Engineering at Google]]
 - [[時間的秩序]]
-- Nexus: A Brief History of Information Networks from the Stone Age to AI
 - [[李光耀觀天下]]
 - [[The Singularity Is Nearer]]
 - [[白夜行]]
@@ -32,7 +32,6 @@ draft: false
 - [[蒙格之道]]
 - [[Four-Thousand-Weeks]]
 - [[艱困時代的經濟學思考 Good Economics for Hard Times]]
-- [[Die-With-Zero]]
 - [[霍金大見解 - 留給世人的十個大哉問與解答]]
 - [[Dogology - The Weird and Wonderful Science of Dogs]]
 - [[人工智慧時代人類的蛻變與重生]]
