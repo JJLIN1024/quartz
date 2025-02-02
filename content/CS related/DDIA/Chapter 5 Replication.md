@@ -193,7 +193,6 @@ In order to become eventually consistent, the replicas should converge toward th
 If losing data is not acceptable, LWW is a poor choice for conflict resolution.
 The only safe way of using a database with LWW is to ensure that a key is only writ‐ ten once and thereafter treated as immutable, thus avoiding any concurrent updates to the same key. For example, a recommended way of using Cassandra is to use a UUID as the key, thus giving each write operation a unique key 
 
-
 ### The# “happens-before” relationship and concurrency
 
 we can simply say that two operations are concurrent if neither happens before the other
@@ -211,8 +210,7 @@ Note that the server can determine whether two operations are concurrent by look
 
 A simple approach is to just pick one of the values based on a version number or timestamp (last write wins), but that implies losing data
 
-Riak’s datatype support uses a family of data structures called CRDTs [38, 39, 55] that can automati‐ cally merge siblings in sensible ways, including preserving deletions.
-
+Riak’s datatype support uses a family of data structures called CRDTs [38, 39, 55] that can automati‐ cally merge siblings in sensible ways, including preserving deletions.ㄋ
 ### Version vectors
 
 Figure 5-13 uses a single version number to capture dependencies between opera‐ tions, but that is not sufficient when there are multiple replicas accepting writes con‐ currently. 

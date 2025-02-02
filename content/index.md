@@ -31,12 +31,11 @@ draft: false
 - [[法式吐司]]
 - [[Stoicism]]
 - [[抹茶]]
-## Areas I Explored
-- [[量子力學]]
-## Book I Read
+## Things I Learned
+### Reading
 - [[Books]]
-## Tech I Learned
-
+### Science
+- [[量子力學]]
 ### Programming Language
 - [[C]]
 - [[C++]]
