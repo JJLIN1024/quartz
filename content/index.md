@@ -31,6 +31,7 @@ draft: false
 - [[法式吐司]]
 - [[Stoicism]]
 - [[抹茶]]
+- [[埃及旅遊]]
 ## Things I Learned
 ### Reading
 - [[Books]]

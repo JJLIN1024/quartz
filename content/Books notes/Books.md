@@ -17,7 +17,11 @@ draft: false
 - [[人生的智慧]]
 - [[作為意志和表象的世界]]
 - [[你要如何衡量你的人生？哈佛商學院最重要的一堂課]]
--  [[原則-生活和工作]]
+- [[原則-生活和工作]]
+
+## Other People's Lives
+- [[AI科學家李飛飛的視界之旅]]
+- 
 ## Science
 - [[時間的秩序]]
 - [[The Singularity Is Nearer]]
@@ -37,15 +41,19 @@ draft: false
 ## Economics
 - [[艱困時代的經濟學思考 Good Economics for Hard Times]]
 - [[致富的特權-二十年來我們為央行政策付出的代價]]
+- [[Why Can't You Afford a Home?]]
 ## Society
 - [[連結 - 從石器時代到AI紀元]]
 - [[Same as Ever - A Guide to What Never Changes]]
 ## Engineering
 - [[Software Engineering at Google]]
+## Medical
+- [[最好的告別]]
 ## Politics
 - [[李光耀觀天下]]
 - [[可能性的藝術-比較政治學30講]]
 - [[借殼上市-蔣介石與中華民國臺灣的形塑]]
+- [[政治學通識]]
 ## Finance
 - [[有效資產管理]]
 - [[投資最重要的事]]
