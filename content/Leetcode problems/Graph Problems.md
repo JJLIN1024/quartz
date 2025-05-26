@@ -79,9 +79,9 @@ draft: false
 ## Bridges, Articulation Points
 - [[Critical Connections in a Network]]
 ## Shortest Path
+- [[Number of Ways to Arrive at Destination]]
 - [[Cheapest Flights Within K Stops]]
 - [[Network Delay Time]]
-- [[Number of Ways to Arrive at Destination]]
 - [[Path with Maximum Probability]]
 - [[Second Minimum Time to Reach Destination]]
 - [Shortest Distance After Road Addition Queries I]]

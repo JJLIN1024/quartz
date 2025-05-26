@@ -1,14 +1,18 @@
 ---
 title: Correctness of Dijkstra's Algorithm
 date: 2022-06-17
-author: Jimmy Lin
-tags: 
+author:
+  - Jimmy Lin
+tags:
+  - Dijkstra
+  - shortest_path
 ---
 
 
 ## 證明
 
-Invariant: 當一個 node 在 Dijkstra's Algorithm 中被 extract-min 從 heap 中抓出來時，它和 source node ($s$) 的距離就是從 $s$ 到此 node 的最短距離。
+- Invariant
+	- 當一個 node 在 Dijkstra's Algorithm 中被 extract-min 從 heap 中抓出來時，它和 source node ($s$) 的距離就是從 $s$ 到此 node 的最短距離。
 
 ## Proof by Induction (Fig. 1)
 

@@ -7,11 +7,10 @@ author:
 tags:
   - knapsack
   - DP
-  - review
 draft: false
 sr-due: 2024-03-30
 sr-interval: 4
-sr-ease: 277
+sr-ease:
 ---
 
 ## Description

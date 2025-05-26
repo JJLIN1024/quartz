@@ -8,10 +8,8 @@ tags:
   - array
   - review
   - greedy
+  - interval
 draft: false
-sr-due: 2024-09-04
-sr-interval: 188
-sr-ease: 314
 ---
 
 ## Description

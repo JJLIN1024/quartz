@@ -19,9 +19,10 @@ draft: false
 - [[你要如何衡量你的人生？哈佛商學院最重要的一堂課]]
 - [[原則-生活和工作]]
 
+
 ## Other People's Lives
 - [[AI科學家李飛飛的視界之旅]]
-- 
+- [[張忠謀自傳]]
 ## Science
 - [[時間的秩序]]
 - [[The Singularity Is Nearer]]

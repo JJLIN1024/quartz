@@ -8,8 +8,10 @@ tags:
 draft: false
 ---
 
+- [[Intersection of Two Linked Lists]]
 - [[Merge Two Sorted Lists|Merge Two Sorted Lists]]
 - [[Linked List Cycle|Linked List Cycle]]
+- [[Linked List Cycle II|Linked List Cycle II]]
 - [[Remove Duplicates from Sorted List]]
 - [[Palindrome Linked List]]
 - [[Reverse Linked List]]
@@ -20,7 +22,6 @@ draft: false
 - [[Insertion Sort List|Insertion Sort List]] 
 - [[Delete the Middle Node of a Linked List|Delete the Middle Node of a Linked List]]
 - [[Partition List|Partition List]]
-- [[Linked List Cycle II|Linked List Cycle II]]
 - [[Remove Duplicates from Sorted List II]]
 - [[Delete Node in a Linked List]] #bug
 - [[Remove Nth Node From End of List]]

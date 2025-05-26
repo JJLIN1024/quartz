@@ -1,7 +1,7 @@
 ---
 title: Number of Ways to Arrive at Destination
 date: 2023-04-24
-lastmod: 2023-04-24
+lastmod: 2025-03-23
 author:
   - Jimmy Lin
 tags:
@@ -9,11 +9,7 @@ tags:
   - multiset
   - shortest_path
   - Dijkstra
-  - review
 draft: false
-sr-due: 2024-07-13
-sr-interval: 128
-sr-ease: 290
 ---
 
 ## Description
@@ -54,9 +50,54 @@ The four ways to get there in 7 minutes are:
 *   There is at most one road connecting any two intersections.
 *   You can reach any intersection from any other intersection.
 
-## Code 
+## Solution
 
-標準 Dijkstra's Algorithm 的應用，當 path cost 有被更新，ways 一路傳承下去，當發現有另外一條 path 其 cost 和原本相等，則 ways 相加。
+Dijkstra's Algorithm 的正確性以及為何只適用 edge weight > 0 的 graph 可以參考：[[Correctness of Dijkstra_s Algorithm]]。
+
+這題題幹敘述看完就知道是要我們用 Dijkstra's Algorithm 來解。
+
+要思考的點是當 path cost 相同時，ways 的更新方式：當發現有另外一條 path 其 cost 和原本相等，則 ways 相加。
+
+## Python
+
+```python
+class Solution:
+    def countPaths(self, n: int, roads: List[List[int]]) -> int:
+        # build adjacency list
+        adj_list = [[] for _ in range(n)]
+        for u, v, time in roads:
+            adj_list[u].append([v, time])
+            adj_list[v].append([u, time])
+
+        # Dijkstra's Algorithm for shortest path on non-negative weight graph
+        min_heap = [[0, 0]] # time, node
+        dist = [float('inf')] * n
+        ways = [0] * n
+        ways[0] = 1
+        MOD = 10 ** 9 + 7
+
+        while min_heap:
+            time_taken, node = heappop(min_heap)
+
+            # Ignore outdated heap entries
+            if time_taken > dist[node]:
+                continue
+
+            for neighbor, time in adj_list[node]:
+                new_time = time_taken + time
+
+                if new_time < dist[neighbor]:
+                    dist[neighbor] = time_taken + time
+                    ways[neighbor] = ways[node] % MOD
+                    heappush(min_heap, [new_time, neighbor])
+                elif new_time == dist[neighbor]:
+                    ways[neighbor] += ways[node]
+                    ways[neighbor] %= MOD;
+
+
+        return ways[n - 1]
+```
+## C++
 
 也可以考慮使用 `multiset`，可以先 delete 再 insert 來達成 update 的目的。
 ### priority_queue
@@ -100,8 +141,6 @@ public:
     }
 };
 ```
-
-
 ### Multiset
 ```cpp
 typedef pair<long long, long long> pa;

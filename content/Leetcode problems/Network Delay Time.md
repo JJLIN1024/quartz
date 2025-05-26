@@ -1,7 +1,7 @@
 ---
 title: Network Delay Time
 date: 2023-04-24
-lastmod: 2023-04-24
+lastmod: 2025-03-23
 author:
   - Jimmy Lin
 tags:
@@ -52,6 +52,30 @@ same as [[Cheapest Flights Within K Stops]], 都是 shortest path 的題目。
 
 $O((V+E)(\log V))$
 
+```python
+class Solution:
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        # Build adjacency list
+        adj_list = [[] for _ in range(n)]
+        for u, v, t in times:
+            adj_list[u - 1].append([v - 1, t])
+
+        # Dijkstra's Algorithm
+        time = [float('inf') for _ in range(n)]
+        time[k - 1] = 0
+        min_heap = [[0, k - 1]] # time, node
+
+        while min_heap:
+            cur_time, node = heappop(min_heap)
+            for neighbor, t in adj_list[node]:
+                if cur_time + t < time[neighbor]:
+                    time[neighbor] = cur_time + t
+                    heappush(min_heap, [time[neighbor], neighbor])
+
+        min_time = max(time)
+        return min_time if min_time != float('inf') else -1
+```
+
 ```cpp
 typedef pair<int, int> pa;
 class Solution {
@@ -84,6 +108,30 @@ public:
 ### Bellman Ford
 
 $O(VE)$
+
+```python
+class Solution:
+    def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
+        # Bellman-Ford
+        # Total of n nodes, so at most n - 1 edges -> relax n - 1 times
+        time = [float('inf')] * n # 0-based
+        time[k - 1] = 0
+
+        for i in range(n - 1):
+            temp = time[:]
+            for u, v, t in times:
+                if time[u - 1] == float('inf'):
+                    continue
+                temp[v - 1] = min(temp[v - 1], time[u - 1] + t)
+            time = temp
+        
+        min_time = 0
+        for t in time:
+            if t == float('inf'):
+                return -1
+            min_time = max(min_time, t)
+        return min_time
+```
 
 ```cpp
 class Solution {

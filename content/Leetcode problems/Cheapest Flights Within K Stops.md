@@ -2,16 +2,13 @@
 title: Cheapest Flights Within K Stops
 date: 2023-04-23
 lastmod: 2023-04-23
-author: Jimmy Lin
+author:
+  - Jimmy Lin
 tags:
   - shortest_path
   - Dijkstra
   - bellman_ford
-  - review
 draft: false
-sr-due: 2025-02-04
-sr-interval: 334
-sr-ease: 310
 ---
 
 ## Description
@@ -64,6 +61,51 @@ The optimal path with no stops from city 0 to 2 is marked in red and has cost 50
 *   `src != dst`
 
 ## Code 
+### Bellman Ford
+
+$O(VE)$.
+
+see [[Bellman-Ford Algorithm]].
+
+```python
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        # Bellman-Ford algorithm
+        # at most k stops -> relax edges for k + 1 times
+        dist = [float('inf')] * n
+        dist[src] = 0
+
+        for i in range(k + 1):
+            temp = dist[:]
+            for u, v, w in flights:
+                temp[v] = min(temp[v], dist[u] + w)
+            dist = temp
+        
+        return -1 if dist[dst] == float('inf') else dist[dst]
+```
+
+```cpp
+class Solution {
+public:
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
+        vector<int> dp(n, INT_MAX);
+        dp[src] = 0;
+        for(int i = 0; i < k + 1; i++) {
+            vector<int> temp(dp);
+            for(auto flight: flights) {
+                int u = flight[0];
+                int v = flight[1];
+                int w = flight[2];
+                if(dp[u] != INT_MAX)
+                    temp[v] = min(temp[v], dp[u] + w);
+            }
+            dp = temp;
+        }
+
+        return dp[dst] == INT_MAX ? -1 : dp[dst];
+    }
+};
+```
 
 ### Dijkstra (TLE now)
 
@@ -97,34 +139,6 @@ public:
 ```
 
 
-### Bellman Ford
-
-$O(VE)$.
-
-see [[Bellman-Ford Algorithm]].
-
-```cpp
-class Solution {
-public:
-    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        vector<int> dp(n, INT_MAX);
-        dp[src] = 0;
-        for(int i = 0; i < k + 1; i++) {
-            vector<int> temp(dp);
-            for(auto flight: flights) {
-                int u = flight[0];
-                int v = flight[1];
-                int w = flight[2];
-                if(dp[u] != INT_MAX)
-                    temp[v] = min(temp[v], dp[u] + w);
-            }
-            dp = temp;
-        }
-
-        return dp[dst] == INT_MAX ? -1 : dp[dst];
-    }
-};
-```
 
 
 
