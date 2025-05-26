@@ -26,14 +26,16 @@ draft: false
 ## Life I Lived
 - [[Teddy]]
 - [[抹茶]]
+- [[台北]]
 - [[埃及旅遊]]
 - [[京都旅遊]]
 - [[東京旅遊]]
 - [[福岡旅遊]]
-- 
-## Things I Learned
-### Reading
+- [[沖繩旅遊]]
+## Books I Read
 - [[Books]]
+## Things I Learned
+
 ### Programming Language
 - [[C]]
 - [[C++]]
@@ -42,12 +44,11 @@ draft: false
 - [[Operating System]]
 - [[預處理、編譯、彙編、連接]]
 - [[Docker]]
-### Tools
-- [[Git]]
 ### Misc
 - [[Docker]]
 - [[Design Pattern]]
 - [[Design Data-Intensive Applications]]
+- [[Git]]
 ### Algorithm
 - [[algorithm]]
 - [[leetcode]]
